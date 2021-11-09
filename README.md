@@ -43,8 +43,9 @@ Scalability töötab väga hästi, kuna tegu on Microsofti teenusega, sellega ka
 Kuna tegu on ikka Microsoftiga, siis iga muu platformi mis ei ole windows on paras peavalu selle setupimisega ja crashimisega. Mõned tehnoloogiad mis ei ole Microsofti omad ei taha väga hästi töötada ja jäävad tahaplaanile. 
 
 
-#RabbitMQ kasutamine
+# RabbitMQ kasutamine
 
 Enda töös ma otsustasin kasutada RabbitMQ kuna see on tasuta ja open-source, lisaks headele review'dele. 
 RabbitMQ käivitamiseks mul oli vaja installida dependency mis oli vaja selle käivitamiseks. Erlang, mis on programmeerimiskeel, mida kasutatakse massiliselt skaleeritavate pehmete reaalajas süsteemide ehitamiseks, mis nõuavad kõrget käideldavust. Mõned selle kasutusalad on telekommunikatsioonis, panganduses, e-kaubanduses ja kiirsuhtluses. Erlangi käitusaja süsteemil on sisseehitatud samaaegsuse, jaotuse ja tõrketaluvuse tugi. 
 
+Kasutuskeeleks ma otsustasin võtta puhast Javat ja abiks ma kasutan RabbitMQ dokumentatsiooni
