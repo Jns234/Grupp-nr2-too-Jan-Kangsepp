@@ -21,3 +21,23 @@ IBM MQ kasutamine algajale on väga keeruline ja selle õppimisega kaasneb ka k�
 RabbitMQ on populaarne open-source message broker, mis on kasutuses üle maailma idufirmades ja suurettevõtetes. 
 
 ### Plussid
+
+RabbitMQ on lightweight ja seda on kerge paigaldada pilves ja füüsilise riistvara peale. See toetab mitut sõnumsideprotokolli. RabbitMQ-d saab kasutada hajutatud ja ühendatud konfiguratsioonides, et täita kõrgetasemelisi ja kõrge kättesaadavuse nõudeid. 
+RabbitMQ töötab paljudes operatsioonisüsteemides ja pilvekeskkondades ning pakub laia valikut arendajatööriistu enamiku populaarsete keelte jaoks.
+
+### Miinused 
+
+RabbitMQ monitoorimine ja haldamine võib raskeks muutuda, kuna puudub kindel tarkvara selle jaoks. Kasutajatugi võib puudulikuks ka jääda, kuna tegu ei ole suure firma teenusega. 
+
+## Azure Scheduler 
+
+### Kirjeldus
+Azure Scheduler võimaldab käivitada töid, nagu näiteks kutsuda HTTP/S-i end-point'e või postitada sõnumeid Azure Storage'i queue'sse, mis tahes ajakava järgi, mistõttu on see ideaalne korduvate toimingute jaoks, nagu logide puhastamine, varukoopiate käivitamine ja muud hooldustoimingud. 
+
+### Plussid 
+
+Scalability töötab väga hästi, kuna tegu on Microsofti teenusega, sellega kaasneb ka hea integratsioon muude Azure teenustega. Turbe on kõrgetasemeline. 
+
+### Miinused
+
+Kuna tegu on ikka Microsoftiga, siis iga muu platformi mis ei ole windows on paras peavalu selle setupimisega ja crashimisega. Mõned tehnoloogiad mis ei ole Microsofti omad ei taha väga hästi töötada ja jäävad tahaplaanile. 
